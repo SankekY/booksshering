@@ -1,0 +1,6 @@
+FastAPI
+pydantic
+SQLAlchemy
+python-jose
+passlib[bcrypt]
+uvicorn
