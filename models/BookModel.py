@@ -25,5 +25,5 @@ class BookS(BaseModel):
             raise ValueError('Год публикации должен быть между 0 и 2023')
         return v
     
-class BookCreateS(BookS):
+class BookDB(BookS):
     book_id: str = Field(default_factory=lambda: str(uuid.uuid4()), description="Автоматически генерируемый ID")
